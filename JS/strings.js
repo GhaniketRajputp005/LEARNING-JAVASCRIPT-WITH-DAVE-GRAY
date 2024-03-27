@@ -12,6 +12,7 @@ console.log(myVariable.split("")); //. The empty string "" passed as an argument
 console.log("John, joe, dave".split(",")); //separates the given string in an array of string based on the string character passed in split function.
 console.log("Every good boy does fine.".split(" "));
 
+console.log(myVariable.charAt(4));
 
 
 
