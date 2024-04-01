@@ -1,6 +1,6 @@
 const myNum = 43;
 const myFloat = 43.01;
-const string = "df34df";
+const string = "45.98";
 
 console.log(myNum);
 console.log(myFloat);
@@ -11,7 +11,7 @@ console.log(Number(undefined));
 console.log(Number(true));
 
 console.log(Number.isInteger(myNum));
-console.log(Number.parseFloat(string));
+console.log(parseFloat(string));
 console.log(myFloat.toFixed(1));
 
 // The Number.isNaN() method determines whether the passed value is NaN and its type is Number.
