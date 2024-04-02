@@ -103,6 +103,8 @@ const clothesDept = [clothesShelfA, clothesShelfB];
 console. log (equipDept) ;
 console. log(clothesDept);
 
+
+//=====================3D_Array==========================
 const sportsStore = [equipDept, clothesDept];
 console. log(sportsStore);
 console. log(sportsStore[0][1][0]);
