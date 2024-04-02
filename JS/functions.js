@@ -30,6 +30,8 @@ console.log(getUserNameFromEmail("davesingh@gmail.com"));
 
 // ARROW FUNCION
 
+// Note:In JavaScript, functions declared using function declarations (i.e., function functionName() {}) are hoisted to the top of their scope, meaning they are available for use anywhere within the scope, even before their actual declaration in the code. However, arrow functions (i.e., const functionName = () => {}) are not hoisted in the same way. If you try to call an arrow function before it is declared in the code, you will get a ReferenceError.
+
 const getUserNameFromEmail1 = (email) => {
     return email.slice(0, email.indexOf("@"));
 }
