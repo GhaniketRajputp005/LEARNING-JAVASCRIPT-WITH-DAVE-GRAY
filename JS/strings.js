@@ -14,5 +14,11 @@ console.log("Every good boy does fine.".split(" "));
 
 console.log(myVariable.charAt(4));
 
+const str = "Dave";
+const reversedStr = str.split('').reverse().join('');
+console.log(reversedStr); // Output: "evaD"
 
+// split(''): Splits the string into an array of individual characters.
+// reverse(): Reverses the order of elements in the array.
+// join(''): Joins the elements of the array back into a string.
 
