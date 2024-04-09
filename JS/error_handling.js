@@ -1,7 +1,7 @@
 // variable = "dave";
 // console.log(variable);
 
-"use strict";
+"use strict"; // it'll throw an error if there is any undeclared variable
 
 // variable = "dave";
 // console.log(variable); // ReferenceError: variable is not defined
