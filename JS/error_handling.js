@@ -17,7 +17,7 @@ function makeerror() {
     // name = "john";
     throw new customError("this is a custom error");
 
-    // throw new Error("this is an error"); //  generic error & doesn't require a separate function like customError
+    // throw new Error("this is an error");                  //  generic error & doesn't require a separate function like customError
 
   } catch (err) {  // it'll only execute if there is an error
 
